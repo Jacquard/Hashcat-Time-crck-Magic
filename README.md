@@ -1,0 +1,1 @@
+# Hashcat-Time-crck-Magic
