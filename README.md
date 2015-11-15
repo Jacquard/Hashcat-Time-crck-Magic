@@ -6,3 +6,14 @@ some adjusments are required.
 
 This small C code, compiled with "-fPIC -shared" makes some magic to the old
 program versions and makes them active again.
+
+## How to use the program:
+
+After the compilation, open a terminal and type:
+
+LD_PRELOAD=./time.so <folder_of_oclXXX-plus>/./oclHashcat-plus.bin
+or
+LD_PRELOAD=./time.so <folder_of_cudaXXX-plus>/./cudaHashcat-plus.bin
+
+And then you will be able to run the program like in 1970 without changing the system date or
+cracking the program (0x71).
