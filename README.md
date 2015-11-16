@@ -7,9 +7,6 @@ some adjusments are required.
 This small C code, compiled with "-fPIC -shared" makes some magic to the old
 program versions and makes them active again.
 
-UPDATE: For a better performance, compile it with "-fPIE -shared". This reduces the
-execution time.
-
 ## How to use the program:
 
 After the compilation, open a terminal and type:
